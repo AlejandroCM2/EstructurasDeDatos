@@ -1,4 +1,4 @@
-from Student import Student
+from student import Student
 
 student_data = [
     {"name": "Juan", "age": 20, "grades": [85, 92, 78]},
@@ -6,12 +6,9 @@ student_data = [
     {"name": "Pedro", "age": 19, "grades": [95, 90, 87]},
 ]
 
-
 students = [Student(data["name"], data["age"]) for data in student_data]
 
-
 umbral = 85
-
 
 students_above_umbral = [student for student in students if student.average_grade() >= umbral]
 
