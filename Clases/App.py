@@ -1,6 +1,5 @@
 from Student import Student
 
-
 student_data = [
     {"name": "Juan", "age": 20, "grades": [85, 92, 78]},
     {"name": "María", "age": 21, "grades": [75, 88, 92]},
